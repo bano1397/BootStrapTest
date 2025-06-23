@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whitepace - Project Management Software</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-rocket me-2"></i>
+                whitepace
+            </a>
+
+            <!-- Mobile Toggle Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>       
+
+            <!-- Navigation Menu -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Products <i class="fas fa-chevron-down ms-1"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Task Management</a></li>
+                            <li><a class="dropdown-item" href="#">Team Collaboration</a></li>
+                            <li><a class="dropdown-item" href="#">Analytics</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Solutions <i class="fas fa-chevron-down ms-1"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Enterprise</a></li>
+                            <li><a class="dropdown-item" href="#">Small Business</a></li>
+                            <li><a class="dropdown-item" href="#">Startups</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Resources <i class="fas fa-chevron-down ms-1"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Documentation</a></li>
+                            <li><a class="dropdown-item" href="#">Blog</a></li>
+                            <li><a class="dropdown-item" href="#">Support</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Pricing <i class="fas fa-chevron-down ms-1"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Free Plan</a></li>
+                            <li><a class="dropdown-item" href="#">Pro Plan</a></li>
+                            <li><a class="dropdown-item" href="#">Enterprise</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <!-- Right Side Buttons -->
+                <div class="navbar-nav ms-auto">
+                    <a href="#" class="btn btn-login me-2">Login</a>
+                    <a href="#" class="btn btn-try-free">Try Whitepace free <i class="fas fa-arrow-right ms-1"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section position-relative">
+        <img src="BACKGROUND.png" alt="Decorative background" class="hero-bg-img-custom">
+        <div class="container-fluid h-100">
+            <div class="row h-100 align-items-center">
+                <!-- Left Column - Text Content -->
+                <div class="col-lg-6 hero-content">
+                    <div class="hero-text">
+                        <h1 class="hero-headline">
+                            Get More Done with<br>
+                            <span class="text-highlight">whitepace</span>
+                        </h1>
+                        <p class="hero-subtext">
+                            Project management software that enables your teams to collaborate, plan, 
+                            analyze and manage everyday tasks
+                        </p>
+                        <a href="#" class="btn btn-cta">
+                            Try Whitepace free <i class="fas fa-arrow-right ms-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right Column - Image Placeholder -->
+                <div class="col-lg-6 hero-visual">
+                    <div class="image-placeholder">
+                        <div class="placeholder-content">
+                            <i class="fas fa-chart-line placeholder-icon"></i>
+                            <p class="placeholder-text">Dashboard Preview</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 1: Project Management -->
+    <section class="feature-section">
+        <!-- Background Pattern -->
+        <div class="topography-pattern">
+            <svg viewBox="0 0 800 600" preserveAspectRatio="none">
+                <path d="M0,300 Q200,250 400,300 T800,300" stroke="#f0f8ff" stroke-width="2" fill="none" opacity="0.3"/>
+                <path d="M0,350 Q200,300 400,350 T800,350" stroke="#f0f8ff" stroke-width="2" fill="none" opacity="0.2"/>
+                <path d="M0,400 Q200,350 400,400 T800,400" stroke="#f0f8ff" stroke-width="2" fill="none" opacity="0.1"/>
+            </svg>
+        </div>
+
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Left Column - Text Content -->
+                <div class="col-lg-6 feature-content">
+                    <div class="feature-text">
+                        <h2 class="feature-headline">
+                            Project<br>
+                            <span class="text-bold">Management</span>
+                        </h2>
+                        <p class="feature-description">
+                            Images, videos, PDFs and audio files are supported.<br>
+                            Create math expressions and diagrams directly from the app.<br>
+                            Take photos with the mobile app and save them to a note.
+                        </p>
+                        <a href="#" class="btn btn-cta">
+                            Get Started <i class="fas fa-arrow-right ms-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right Column - Visual -->
+                <div class="col-lg-6 feature-visual">
+                    <div class="feature-placeholder">
+                        <div class="placeholder-content">
+                            <i class="fas fa-folder-open placeholder-icon"></i>
+                            <p class="placeholder-text">Project Files</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: Work Together -->
+    <section class="feature-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Left Column - Visual -->
+                <div class="col-lg-6 feature-visual">
+                    <div class="collaboration-diagram">
+                        <!-- Center Logo -->
+                        <div class="center-logo">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        
+                        <!-- Orbiting Rings -->
+                        <div class="orbit-ring orbit-ring-1">
+                            <div class="orbit-node node-1"></div>
+                            <div class="orbit-node node-2"></div>
+                            <div class="orbit-node node-3"></div>
+                        </div>
+                        
+                        <div class="orbit-ring orbit-ring-2">
+                            <div class="orbit-node node-4"></div>
+                            <div class="orbit-node node-5"></div>
+                            <div class="orbit-node node-6"></div>
+                            <div class="orbit-node node-7"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column - Text Content -->
+                <div class="col-lg-6 feature-content">
+                    <div class="feature-text">
+                        <h2 class="feature-headline">
+                            Work<br>
+                            <span class="text-bold">together</span>
+                        </h2>
+                        <p class="feature-description">
+                            With whitepace, share your notes with your colleagues and collaborate on them.<br>
+                            You can also publish a note to the internet and share the URL with others.
+                        </p>
+                        <a href="#" class="btn btn-cta">
+                            Try it now <i class="fas fa-arrow-right ms-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Use as Extension -->
+    <section class="extension-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Left Column - Text Content -->
+                <div class="col-lg-6 extension-content">
+                    <div class="extension-text">
+                        <h2 class="extension-headline">
+                            Use as<br>
+                            <span class="text-bold">Extension</span>
+                        </h2>
+                        <p class="extension-description">
+                            Whitepace supports extensions, available on Chrome and Firefox, to save<br>
+                            web pages or take screenshots as notes.
+                        </p>
+                        <a href="#" class="btn btn-cta">
+                            Let's Go <i class="fas fa-arrow-right ms-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right Column - Visual -->
+                <div class="col-lg-6 extension-visual">
+                    <div class="extension-placeholder">
+                        <div class="placeholder-content">
+                            <i class="fas fa-puzzle-piece placeholder-icon"></i>
+                            <p class="placeholder-text">Browser Extension</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Customise it to your needs -->
+    <section class="feature-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Left Column - Visual -->
+                <div class="col-lg-6 feature-visual">
+                    <div class="feature-placeholder">
+                        <div class="placeholder-content">
+                            <i class="fas fa-cogs placeholder-icon"></i>
+                            <p class="placeholder-text">Customization</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column - Text Content -->
+                <div class="col-lg-6 feature-content">
+                    <div class="feature-text">
+                        <h2 class="feature-headline">
+                            Customise it to<br>
+                            <span class="text-bold text-underline">your needs</span>
+                        </h2>
+                        <p class="feature-description">
+                            Customize the app with widgets, custom themes and multiple user actions.<br>
+                            Rich APIs, Webhooks, AI content, and even note styles all integrate using<br>
+                            the Extension API.
+                        </p>
+                        <a href="#" class="btn btn-cta">
+                            Let's Go <i class="fas fa-arrow-right ms-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: Choose Your Plan -->
+    <section class="pricing-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h2 class="pricing-headline">
+                        Choose Your <span class="text-bold">Plan</span>
+                        <div class="decorative-line"></div>
+                    </h2>
+                    <p class="pricing-description">
+                        Whether you want to get organized, keep your personal life on track,<br>
+                        or boost workplace productivity, whitepace has the plan for you.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mt-5">
+                <!-- Free Plan -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="pricing-card pricing-card-free">
+                        <div class="card-header">
+                            <h3 class="plan-title">Free</h3>
+                            <div class="plan-price">
+                                <span class="currency">$</span>
+                                <span class="amount">0</span>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <ul class="feature-list">
+                                <li><i class="fas fa-check"></i> Capture ideas and find them quickly</li>
+                                <li><i class="fas fa-check"></i> Sync across devices</li>
+                                <li><i class="fas fa-check"></i> Web clipper</li>
+                                <li><i class="fas fa-check"></i> Tasks</li>
+                                <li><i class="fas fa-check"></i> Integration with Google Calendar</li>
+                            </ul>
+                            <a href="#" class="btn btn-pricing btn-free">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Personal Plan -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="pricing-card pricing-card-personal">
+                        <div class="card-header">
+                            <h3 class="plan-title">Personal</h3>
+                            <div class="plan-price">
+                                <span class="currency">$</span>
+                                <span class="amount">11.99</span>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <ul class="feature-list">
+                                <li><i class="fas fa-check"></i> All features from Free</li>
+                                <li><i class="fas fa-check"></i> Offline access</li>
+                                <li><i class="fas fa-check"></i> Connect multiple Google Calendars</li>
+                                <li><i class="fas fa-check"></i> Add due dates, reminders, and notifications</li>
+                                <li><i class="fas fa-check"></i> Advanced search and filters</li>
+                                <li><i class="fas fa-check"></i> Priority customer support</li>
+                                <li><i class="fas fa-check"></i> Unlimited storage</li>
+                                <li><i class="fas fa-check"></i> Advanced analytics</li>
+                            </ul>
+                            <a href="#" class="btn btn-pricing btn-personal">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Organization Plan -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="pricing-card pricing-card-organization">
+                        <div class="card-header">
+                            <h3 class="plan-title">Organization</h3>
+                            <div class="plan-price">
+                                <span class="currency">$</span>
+                                <span class="amount">49.99</span>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <ul class="feature-list">
+                                <li><i class="fas fa-check"></i> Custom roles and permissions</li>
+                                <li><i class="fas fa-check"></i> Team workspaces</li>
+                                <li><i class="fas fa-check"></i> Note version history</li>
+                                <li><i class="fas fa-check"></i> Advanced integrations</li>
+                            </ul>
+                            <a href="#" class="btn btn-pricing btn-organization">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 6: Your work, everywhere you are -->
+    <section class="everywhere-section-compact position-relative d-flex align-items-center justify-content-center">
+        <img src="BACKGROUND.png" alt="Decorative background" class="everywhere-bg-img-compact">
+        <div class="container position-relative d-flex flex-column justify-content-center align-items-center everywhere-content-compact">
+            <h2 class="everywhere-headline-compact mb-3">
+                Your work, <span class="everywhere-highlight">everywhere you are</span>
+            </h2>
+            <p class="everywhere-description-compact mb-4">
+                Access your notes from your computer, phone or tablet by synchronising with various services, including whitepace, Dropbox and OneDrive. The app is available on Windows, macOS, Linux, Android and iOS. A terminal app is also available!
+            </p>
+            <a href="#" class="btn btn-everywhere-compact">Try Taskey <i class="fas fa-arrow-right ms-2"></i></a>
+        </div>
+    </section>
+
+    <!-- Section 7: 100% Your Data -->
+    <section class="data-section-custom py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Left Column -->
+                <div class="col-lg-6 data-content-custom mb-4 mb-lg-0">
+                    <h2 class="data-headline-custom mb-3">
+                        100% <span class="text-bold text-underline-yellow">your data</span>
+                    </h2>
+                    <p class="data-description-custom mb-4">
+                        The app is open source and your notes are saved in an open format, so you'll always have access to them. Uses End-to-End Encryption (E2EE) to secure your notes and ensure no one—but yourself—can access them.
+                    </p>
+                    <a href="#" class="btn btn-data-custom">Read more <i class="fas fa-arrow-right ms-2"></i></a>
+                </div>
+                <!-- Right Column -->
+                <div class="col-lg-6 data-visual-custom d-flex justify-content-center">
+                    <div class="secure-nodes-custom">
+                        <svg width="260" height="180" viewBox="0 0 260 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="130" cy="90" r="40" fill="#CDE4FF" stroke="#4D9FFF" stroke-width="3"/>
+                            <circle cx="50" cy="40" r="18" fill="#FEDA6A" stroke="#FFD700" stroke-width="2"/>
+                            <circle cx="210" cy="40" r="18" fill="#4D9FFF" stroke="#002F6C" stroke-width="2"/>
+                            <circle cx="50" cy="140" r="18" fill="#4D9FFF" stroke="#002F6C" stroke-width="2"/>
+                            <circle cx="210" cy="140" r="18" fill="#FEDA6A" stroke="#FFD700" stroke-width="2"/>
+                            <line x1="130" y1="50" x2="50" y2="40" stroke="#4D9FFF" stroke-width="2"/>
+                            <line x1="130" y1="50" x2="210" y2="40" stroke="#4D9FFF" stroke-width="2"/>
+                            <line x1="130" y1="130" x2="50" y2="140" stroke="#4D9FFF" stroke-width="2"/>
+                            <line x1="130" y1="130" x2="210" y2="140" stroke="#4D9FFF" stroke-width="2"/>
+                            <line x1="50" y1="40" x2="50" y2="140" stroke="#FEDA6A" stroke-width="2"/>
+                            <line x1="210" y1="40" x2="210" y2="140" stroke="#FEDA6A" stroke-width="2"/>
+                            <text x="130" y="95" text-anchor="middle" fill="#002F6C" font-size="16" font-weight="bold">Shehar Bano</text>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 8: Our Sponsors -->
+    <section class="sponsors-section-custom py-5">
+        <div class="container">
+            <h2 class="sponsors-headline-custom text-center mb-4">
+                Our <span class="text-bold text-underline-yellow">sponsors</span>
+            </h2>
+            <div class="sponsors-logos-custom d-flex flex-wrap justify-content-center align-items-center gap-4 mt-4">
+                <!-- Apple -->
+                <div class="sponsor-logo-custom">
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M36.7 25.2c-.1-4.2 3.4-6.2 3.6-6.3-2-2.9-5.1-3.3-6.2-3.4-2.6-.3-5.1 1.5-6.4 1.5-1.3 0-3.3-1.5-5.4-1.5-2.8 0-5.4 1.6-6.8 4.1-2.9 5-0.7 12.3 2.1 16.3 1.4 2 3.1 4.2 5.3 4.1 2.1-.1 2.9-1.3 5.4-1.3 2.5 0 3.2 1.3 5.4 1.2 2.2 0 3.6-2 5-4.1 1.6-2.3 2.2-4.5 2.2-4.6-.1 0-4.2-1.6-4.3-6.2zm-5.1-11.5c1.2-1.5 2-3.5 1.7-5.5-1.7.1-3.7 1.1-4.9 2.6-1.1 1.3-2.1 3.4-1.7 5.4 1.9.1 3.7-1 4.9-2.5z" fill="#222"/>
+                    </svg>
+                </div>
+                <!-- Microsoft -->
+                <div class="sponsor-logo-custom">
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="4" y="4" width="18" height="18" fill="#F35325"/>
+                        <rect x="26" y="4" width="18" height="18" fill="#81BC06"/>
+                        <rect x="4" y="26" width="18" height="18" fill="#05A6F0"/>
+                        <rect x="26" y="26" width="18" height="18" fill="#FFBA08"/>
+                    </svg>
+                </div>
+                <!-- Slack -->
+                <div class="sponsor-logo-custom">
+                    <svg width="48" height="48" viewBox="0 0 122 122" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="27.5" y="73.2" width="13.7" height="34.3" rx="6.8" fill="#E01E5A"/>
+                        <rect x="27.5" y="14.5" width="13.7" height="34.3" rx="6.8" fill="#36C5F0"/>
+                        <rect x="73.2" y="80.8" width="13.7" height="34.3" rx="6.8" transform="rotate(-90 73.2 80.8)" fill="#2EB67D"/>
+                        <rect x="14.5" y="80.8" width="13.7" height="34.3" rx="6.8" transform="rotate(-90 14.5 80.8)" fill="#ECB22E"/>
+                        <rect x="80.8" y="80.8" width="13.7" height="34.3" rx="6.8" fill="#E01E5A"/>
+                        <rect x="80.8" y="21.9" width="13.7" height="34.3" rx="6.8" fill="#36C5F0"/>
+                        <rect x="34.3" y="27.5" width="13.7" height="34.3" rx="6.8" transform="rotate(-90 34.3 27.5)" fill="#2EB67D"/>
+                        <rect x="80.8" y="27.5" width="13.7" height="34.3" rx="6.8" transform="rotate(-90 80.8 27.5)" fill="#ECB22E"/>
+                    </svg>
+                </div>
+                <!-- Google -->
+                <div class="sponsor-logo-custom">
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M44.5 20H24v8.5h11.7C34.7 33.6 30.1 36.5 24 36.5c-7.2 0-13-5.8-13-13s5.8-13 13-13c3.1 0 5.9 1.1 8.1 2.9l6.4-6.4C34.6 4.5 29.6 2.5 24 2.5 12.7 2.5 3.5 11.7 3.5 23S12.7 43.5 24 43.5c10.5 0 20-8.1 20-20 0-1.3-.1-2.2-.3-3.5z" fill="#FFC107"/>
+                        <path d="M6.3 14.1l7 5.1C15 16.2 19.1 13.5 24 13.5c3.1 0 5.9 1.1 8.1 2.9l6.4-6.4C34.6 4.5 29.6 2.5 24 2.5c-7.2 0-13 5.8-13 13 0 2.1.5 4.1 1.3 5.9z" fill="#FF3D00"/>
+                        <path d="M24 44.5c5.1 0 9.8-1.7 13.4-4.7l-6.2-5.1c-2.1 1.5-4.8 2.4-7.2 2.4-6.1 0-11.2-4.1-13-9.6l-7 5.4C7.7 40.2 15.3 44.5 24 44.5z" fill="#4CAF50"/>
+                        <path d="M44.5 20H24v8.5h11.7c-1.1 3.1-4.7 8-11.7 8-7.2 0-13-5.8-13-13s5.8-13 13-13c3.1 0 5.9 1.1 8.1 2.9l6.4-6.4C34.6 4.5 29.6 2.5 24 2.5c-7.2 0-13 5.8-13 13 0 2.1.5 4.1 1.3 5.9z" fill="#1976D2"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section: Try Whitepace today (Final) -->
+    <section class="try-whitepace-final-section position-relative py-5 py-lg-5">
+        <img src="BACKGROUND.png" alt="Decorative background" class="try-whitepace-final-bg-img">
+        <div class="container d-flex flex-column align-items-center justify-content-center text-center">
+            <h2 class="try-whitepace-final-headline mb-3">Try Whitepace today</h2>
+            <p class="try-whitepace-final-subheading mb-4">
+                Get started for free.<br>Add your whole team as your needs grow.
+            </p>
+            <a href="#" class="btn btn-try-taskey-final mb-3">Try Taskey free &rarr;</a>
+            <div class="try-whitepace-final-support mb-4">On a big team? <a href="#" class="try-whitepace-final-support-link">Contact sales</a></div>
+            <div class="try-whitepace-final-icons-row d-flex justify-content-center align-items-center gap-4 mb-2">
+                <!-- Apple -->
+                <span class="os-icon-final">
+                    <svg width="32" height="32" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M36.7 25.2c-.1-4.2 3.4-6.2 3.6-6.3-2-2.9-5.1-3.3-6.2-3.4-2.6-.3-5.1 1.5-6.4 1.5-1.3 0-3.3-1.5-5.4-1.5-2.8 0-5.4 1.6-6.8 4.1-2.9 5-0.7 12.3 2.1 16.3 1.4 2 3.1 4.2 5.3 4.1 2.1-.1 2.9-1.3 5.4-1.3 2.5 0 3.2 1.3 5.4 1.2 2.2 0 3.6-2 5-4.1 1.6-2.3 2.2-4.5 2.2-4.6-.1 0-4.2-1.6-4.3-6.2zm-5.1-11.5c1.2-1.5 2-3.5 1.7-5.5-1.7.1-3.7 1.1-4.9 2.6-1.1 1.3-2.1 3.4-1.7 5.4 1.9.1 3.7-1 4.9-2.5z" fill="#fff"/>
+                    </svg>
+                </span>
+                <!-- Windows -->
+                <span class="os-icon-final">
+                    <svg width="32" height="32" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="3" y="7" width="19" height="15" fill="#fff"/>
+                        <rect x="26" y="7" width="19" height="15" fill="#fff"/>
+                        <rect x="3" y="26" width="19" height="15" fill="#fff"/>
+                        <rect x="26" y="26" width="19" height="15" fill="#fff"/>
+                    </svg>
+                </span>
+                <!-- Android -->
+                <span class="os-icon-final">
+                    <svg width="32" height="32" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="24" cy="24" r="20" fill="#fff"/>
+                        <rect x="14" y="20" width="20" height="12" rx="6" fill="#002F6C"/>
+                        <rect x="18" y="32" width="4" height="6" rx="2" fill="#002F6C"/>
+                        <rect x="26" y="32" width="4" height="6" rx="2" fill="#002F6C"/>
+                        <circle cx="18" cy="26" r="1.5" fill="#fff"/>
+                        <circle cx="30" cy="26" r="1.5" fill="#fff"/>
+                    </svg>
+                </span>
+            </div>
+        </div>
+        <!-- Footer Section -->
+        <footer class="footer-final container-fluid pt-5 mt-5">
+            <div class="container">
+                <div class="row gy-4 align-items-start text-white">
+                    <!-- Column 1: Logo + Desc -->
+                    <div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0">
+                        <div class="footer-logo d-flex align-items-center mb-2">
+                            <i class="fas fa-rocket me-2" style="font-size: 1.7rem; color: #fff;"></i>
+                            <span class="footer-logo-text fw-bold fs-4">whitepace</span>
+                        </div>
+                        <p class="footer-desc mb-0">
+                            whitepace was created for<br>
+                            the new ways we live and work.<br>
+                            We make a better workspace<br>
+                            around the world
+                        </p>
+                    </div>
+                    <!-- Column 2: Product -->
+                    <div class="col-6 col-md-3 col-lg-2 mb-4 mb-lg-0">
+                        <h6 class="footer-heading">Product</h6>
+                        <ul class="footer-links list-unstyled">
+                            <li><a href="#">Overview</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">Customer stories</a></li>
+                        </ul>
+                    </div>
+                    <!-- Column 3: Resources -->
+                    <div class="col-6 col-md-3 col-lg-2 mb-4 mb-lg-0">
+                        <h6 class="footer-heading">Resources</h6>
+                        <ul class="footer-links list-unstyled">
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Guides & tutorials</a></li>
+                            <li><a href="#">Help center</a></li>
+                        </ul>
+                    </div>
+                    <!-- Column 4: Company -->
+                    <div class="col-6 col-md-3 col-lg-2 mb-4 mb-lg-0">
+                        <h6 class="footer-heading">Company</h6>
+                        <ul class="footer-links list-unstyled">
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Media kit</a></li>
+                        </ul>
+                    </div>
+                    <!-- Column 5: Try It Today -->
+                    <div class="col-12 col-lg-3 mb-4 mb-lg-0 ms-lg-auto">
+                        <h6 class="footer-heading">Try It Today</h6>
+                        <p class="footer-cta-desc mb-2">
+                            Get started for free.<br>Add your whole team as your needs grow.
+                        </p>
+                        <a href="#" class="btn btn-footer-cta-final">Start today &rarr;</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom-bar-final mt-4 py-3">
+                <div class="container d-flex flex-column flex-md-row align-items-center justify-content-between">
+                    <div class="footer-links-small-final d-flex flex-wrap align-items-center gap-3 mb-2 mb-md-0">
+                        <div class="dropdown d-inline-block me-2">
+                            <a href="#" class="footer-link-small-final dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">English <span style="font-size:1rem;">&#9662;</span></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">English</a></li>
+                                <li><a class="dropdown-item" href="#">Español</a></li>
+                                <li><a class="dropdown-item" href="#">Français</a></li>
+                            </ul>
+                        </div>
+                        <a href="#" class="footer-link-small-final">Terms & privacy</a>
+                        <a href="#" class="footer-link-small-final">Security</a>
+                        <a href="#" class="footer-link-small-final">Status</a>
+                        <span class="footer-copyright-final ms-2">©2021 Whitepace LLC.</span>
+                    </div>
+                    <div class="footer-social-final d-flex align-items-center gap-3">
+                        <a href="#" class="footer-social-link-final"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="footer-social-link-final"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="footer-social-link-final"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html> 
